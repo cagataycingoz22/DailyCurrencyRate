@@ -1,2 +1,4 @@
 # Run main.py every day at 06:00 UTC
-* * * * * /usr/local/bin/python /app/main.py >> /app/log.txt 2>&1
+# Can fetch it every minute, if we use 5 stars. You can check.
+0 6 * * * /usr/local/bin/python /app/main.py >> /app/log.txt 2>&1
+
