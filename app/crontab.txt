@@ -1,0 +1,2 @@
+# Run main.py every day at 06:00 UTC
+* * * * * /usr/local/bin/python /app/main.py >> /app/log.txt 2>&1
